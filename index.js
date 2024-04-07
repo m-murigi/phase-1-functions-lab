@@ -23,7 +23,7 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
 
   if (distance <= 400) {
-    return 0; // Free sample
+    return 0; // Free 
   } else if (distance > 400 && distance <= 2000) {
     return (distance - 400) * 0.02;
     //2 cents per foot
